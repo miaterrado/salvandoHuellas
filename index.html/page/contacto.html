@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactoREFUGIO</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <!--Header-->
+
+    <header>
+        <div class="container">
+            <p class="logo"> Salvando Huellas </p>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="donacion.html">Doná</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <!--Fin Header-->
+
+        <!-- Seccion Principal-->
+    <main>
+        
+        <section>
+          
+          <!-- formulario de contacto en html y css -->  
+
+        <div class="contact_form">
+
+           <div class="formulario"> 
+
+             <h1 class="titulo-form">Formulario de contacto</h1>
+             <h3 class="subtitulo-form">Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+              <form action="submeter-formulario.php" method="post">       
+                  
+                <p class="form">
+
+                  <label for="nombre" class="colocar_nombre">Nombre 
+                    <span class="obligatorio">*</span>
+                  </label>
+
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+
+      
+              
+                <p class="form">
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p class="form">
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p class="form">
+                  <label for="website" class="colocar_website">Sitio web
+                  </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+              
+                <p class="form">
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p class="form">
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>   
+                    
+                                 
+              
+                <button class="form-button" type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+  </section>
+  
+        <section>
+                <p class="Local">Visitanos en: </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.1179810409326!2d-58.75172782431672!3d-34.449152873010036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc98b70b16dcad%3A0x538deae04e6fb1d!2sTortugas%20Country%20Club!5e0!3m2!1ses!2sar!4v1698244348592!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </section>
+
+        <footer>
+
+        <div class="footer-contacto">
+          
+          <div class="contact-info">
+              <h3>Información de Contacto</h3>
+              <p>Dirección: General Belgrano, 1888 , Provincia de Buenos Aires</p>
+              <p>Teléfono: +123 456 789</p>
+              <p>Email: info@salvandohuellas.org</p>
+          </div>
+      </div>
+      <div class="copy">
+          <p>&copy; 2023 Refugio de Animales "Salvando Huellas". Todos los derechos reservados.</p>
+      </div>
+  </footer>
+    </main>
+
+    <!---Fin de la Seccion Principal-->
+
+    
+    
+</body>
+
+
+</html>
