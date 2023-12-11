@@ -1,0 +1,591 @@
+
+
+*{
+
+    box-sizing: border-box;
+   
+}
+
+
+
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../media/HelveticaNeueLTStd-MdEx.otf);
+}
+
+@font-face {
+    font-family: "Helvetica Fina";
+    src: url(../media/Gotham-Light.otf);
+}
+
+@font-face { 
+    font-family: "Helvetica Titulo";
+    src: url(../media/HelveticaNeueTituloLTStd-Bd.otf);
+
+
+}
+
+@font-face {
+    font-family: "Helvetica Normal";
+    src: url(../media/HelveticaNeueNormal.otf);
+}
+
+
+
+
+h1 {
+    color: white;
+    font-size: 3.5em; 
+    font-family: "Helvetica Titulo" ;
+    
+} 
+
+h2 { color:white;
+    font-size: 2.3em;
+    font-family:"Helvetica Normal";
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: "Helvetica Normal";
+    color: white;
+}
+
+h4 {
+
+    font-size: 3,5em;
+    font-family: "Helvetica Normal";
+    color: black;
+}
+
+h5 {
+    font-size: 0.6em;
+    font-family: "Helvetica Fina";
+    color: black;
+}
+
+h6 {
+    font-size: 25px;
+    font-family: "Helvetica Fina";
+    color: white;
+
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    font-family: "Helvetica";
+}
+
+.subtitulo {
+    font-size: 2.3em;
+    color: white;
+}
+
+.Titulo-01{  color:black;
+    font-size: 1.75em;
+    font-family: "Helvetica Normal";
+} 
+
+.Parrafo-01 { color: black;
+    font-size: 1.25em;
+    font-family: "Helvetica Fina" ;
+}
+
+
+
+ul { list-style: none;
+    padding: 0; 
+    margin: 0;}
+
+
+    
+
+
+.Local {
+    color: black;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: coral;
+}
+
+button:hover{
+    background-color:rgb(208, 103, 66);
+}
+
+.container {
+    max-width: 1400px;
+    margin:auto;
+  
+}
+
+.color-acento {
+    color:darkcyan;
+}
+
+header {
+    margin: 0;
+    border: none;
+    padding: 0;
+
+}
+
+
+
+header nav ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    margin:0;
+   
+
+}
+
+
+header nav ul li {
+
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: "Helvetica";
+    font-size: 1.2em;
+    display: inline-block;
+    margin:0;
+    overflow-x: hidden;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin:0;
+    color:white;
+
+
+}
+
+#menu a:hover {
+    color:rgb(32, 56, 56);
+}
+
+header .container-fluid{
+    background-color:darkslategray;
+    
+}
+
+#menu a {
+
+    justify-content: flex-end;
+    color: white;
+
+}
+
+#Hero {
+display: flex;
+padding: 250px 50px 200px 50px;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+
+)
+,url(../media/footerimg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+
+
+
+
+#somos-unrefugio .logo-container {
+    text-align:center;
+    padding: 150px 12px;
+    font-style: bold;
+}
+
+#nuestros-animales {
+    background-color:rgb(68, 116, 116)
+}
+
+#nuestros-animales  .container
+
+{
+    text-align: center;
+    padding: 100px 12px;
+
+}
+
+#nuestros-animales h2 {
+    margin-top: 0;
+
+}
+
+#nuestros-animales .animal{
+    background-position: center;
+  background-size:cover;
+  padding: 100px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.animal:first-child {
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    
+    )
+    ,url(../media/front-end.jpeg);
+    background-size: cover;
+background-position: center center;
+}
+
+.animal:nth-child(2) {
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    
+    )
+    ,url(../media/algo-don.jpeg);
+    background-size:cover;
+    background-position: center center;
+    
+
+    
+
+}
+
+.animal:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    
+    )
+    ,url(../media/lili.jpeg);
+
+
+}
+
+.animal:nth-child(4) {
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    
+    )
+    ,url(../media/hugo.jpeg);
+
+    
+}
+
+.animal:nth-child(5) {
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    
+    )
+    ,url(../media/hueso.jpeg);
+    
+}
+
+.card p {
+    color: black;
+
+}
+
+#video .container{
+    text-align:center;
+    font-size: 2em;
+  padding: 80px 12px;
+  justify-content: space-evenly;
+
+
+
+
+}
+
+#aporta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(68, 116, 116);
+    height: 80vh;
+ }
+
+ #aporta h6 {
+    font-size: 3vw;
+    font-style: bold;
+ }
+#aporta button {
+    font-size: 2vw;
+
+}
+
+footer{
+    background-color: rgb(230,230,230,230)
+}
+
+footer p {
+    margin: 0;
+    color: rgb(100,100,100,100);
+    font-size: 1em;
+    padding: 12px;
+   
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end
+}
+
+@media (min-width:720px) {
+
+    header {
+        position:fixed;
+        width: 100%;
+    }
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+
+    }
+
+    #video-container {
+        height: 500px;
+        width: 400px;
+        display:flex;
+        align-items: center;
+    }
+
+    #video .container {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        align-items: center;
+    }
+
+    #video .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding:0px 30px ;
+    }
+
+
+}
+
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:rgb(32, 56, 56); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:darkslategray; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  .form-button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color:darkslategray; 
+    border-color:darkslategray; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color:darkslategrey; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  .titulo-form{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color:darkslategray;
+  }
+  
+  
+  .subtitulo-form{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  .form{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: black;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: black; }
+
+
+
+
+   button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; 
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
